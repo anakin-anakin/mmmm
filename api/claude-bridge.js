@@ -69,7 +69,7 @@ Return ONLY Lua code, no markdown, no backticks, no explanation.`;
 
   try {
     const r = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${process.env.gemini}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${process.env.gemini}`,
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
